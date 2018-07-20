@@ -2,22 +2,22 @@
 
 Original repo: https://github.com/nebo15/react-nebo15-events
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Nebo15/react-nebo15-events.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/Nebo15/react-nebo15-events.svg?branch=master)](https://travis-ci.org/Nebo15/react-nebo15-events)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Nebo15/react-storm1er-events.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/Nebo15/react-storm1er-events.svg?branch=master)](https://travis-ci.org/Nebo15/react-storm1er-events)
 
 Event Manager for React JS application.
 
 ### Installation
 
 ```
-npm install react-nebo15-events --save
+npm install react-storm1er-events --save
 ```
 
 ### Usage
 
 ```
 import React from 'react';
-import { EventManager } from 'react-nebo15-events';
+import { EventManager } from 'react-storm1er-events';
 import { render } from 'react-dom';
 
 const eventManager = new EventManager();

@@ -2,8 +2,8 @@
 
 Original repo: https://github.com/nebo15/react-nebo15-events
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Nebo15/react-storm1er-events.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/Nebo15/react-storm1er-events.svg?branch=master)](https://travis-ci.org/Nebo15/react-storm1er-events)
+[![Greenkeeper badge](https://badges.greenkeeper.io/storm1er/react-storm1er-events.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/storm1er/react-storm1er-events.svg?branch=master)](https://travis-ci.org/storm1er/react-storm1er-events)
 
 Event Manager for React JS application.
 

@@ -4,7 +4,7 @@ const env = require('yargs').argv.mode;
 
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
-const libraryName = 'ReactNebo15Events';
+const libraryName = 'ReactStorm1erEvents';
 
 const plugins = [];
 let outputFile;
@@ -26,9 +26,9 @@ if (env === 'build') {
       warnings: false,
     },
   }));
-  outputFile = 'react-nebo15-events.min.js';
+  outputFile = 'react-storm1er-events.min.js';
 } else {
-  outputFile = 'react-nebo15-events.js';
+  outputFile = 'react-storm1er-events.js';
 }
 
 const config = {

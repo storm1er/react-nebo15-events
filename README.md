@@ -1,5 +1,7 @@
 # React Events
 
+Original repo: https://github.com/nebo15/react-nebo15-events
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/Nebo15/react-nebo15-events.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Nebo15/react-nebo15-events.svg?branch=master)](https://travis-ci.org/Nebo15/react-nebo15-events)
 
@@ -81,11 +83,11 @@ Manager of subscriptions for events.
 
 ### EventManagerProvider
 
-HOC component that defines the context for the children elements in React application. All inherit elements will have the context `eventManager` 
+HOC component that defines the context for the children elements in React application. All inherit elements will have the context `eventManager`
 
 #### Properties
 
-| Name | Type | Default value | Description | 
+| Name | Type | Default value | Description |
 | - | - | - | - |
 | manager | `EventManager` | global event manager | EventManager that will manage the subscription and handle the events from the children of this EventManagerProvider |
 
@@ -99,16 +101,16 @@ HOC component that defines the context for the children elements in React applic
 
 ### EventTrack
 
-Event track component. Using `EventTrack`, you can define the events in your application. `EventTrack` add the event listener to your element and fire the event in the EventManager. 
+Event track component. Using `EventTrack`, you can define the events in your application. `EventTrack` add the event listener to your element and fire the event in the EventManager.
 
 #### Properties
 
 | Name | Type | Default value | Description |
 | - | - | - | - |
 | name | `string` | - | Event name |
-| event | `string` | `onClick` | Name of the event handler. According to this doc: https://facebook.github.io/react/docs/events.html | 
+| event | `string` | `onClick` | Name of the event handler. According to this doc: https://facebook.github.io/react/docs/events.html |
 | options | `object` | - | Options, what will sended to the eventManager then event fires. |
-| extendOptions | `boolean` | `true` | Extend or replace the options from parent `EventOptions` | 
+| extendOptions | `boolean` | `true` | Extend or replace the options from parent `EventOptions` |
 | wrap | `string` or `React.Element` | - | Wrapping element. Can be useful when EventTrack can't set the event handler to the element (eg. you use `recompose/pure`) or if you have few child components. |
 
 ### EventOptions
@@ -126,7 +128,7 @@ Event track component. Using `EventTrack`, you can define the events in your app
 </EventOptions>
 ```
 
-According to this example, when `Logo Click` will fire, it will be received in the `EventManager` with options `{component: 'header' }`. If Navigation has its own `EventTrack`s, they also will be fired with the `component: 'header'` in the options. 
+According to this example, when `Logo Click` will fire, it will be received in the `EventManager` with options `{component: 'header' }`. If Navigation has its own `EventTrack`s, they also will be fired with the `component: 'header'` in the options.
 (only if `EventTrack.extendsOptions` is not set to `false`)
 
 #### Properties

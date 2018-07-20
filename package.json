@@ -1,8 +1,8 @@
 {
-  "name": "react-nebo15-events",
+  "name": "react-storm1er-events",
   "version": "1.0.13",
   "description": "Event Manager and components for React JS",
-  "main": "lib/react-nebo15-events.min.js",
+  "main": "lib/react-storm1er-events.min.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register ./test/**/*spec.js",
     "lint": "eslint src spec",
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nebo15/react-nebo15-events.git"
+    "url": "https://github.com/storm1er/react-storm1er-events.git"
   },
   "greenkeeper": {
     "ignore": [
@@ -55,9 +55,9 @@
   "author": "Nebo15",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nebo15/react-nebo15-events/issues"
+    "url": "https://github.com/storm1er/react-storm1er-events/issues"
   },
-  "homepage": "https://github.com/nebo15/react-nebo15-events",
+  "homepage": "https://github.com/storm1er/react-storm1er-events",
   "peerDependencies": {
     "react": "^15.5.0",
     "react-addons-test-utils": "^15.5.0",
